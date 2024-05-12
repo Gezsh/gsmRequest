@@ -10,6 +10,7 @@ app.use(bodyParser.json());
 app.use(cors({
   origin: '*'
 }));
+
 // MongoDB connection URI
 const uri = 'mongodb+srv://Gezsh:21a74b28c34d@cluster0.wgpztnq.mongodb.net/user?retryWrites=true&w=majority&appName=Cluster0';
 const dbName = 'gsm'; // Replace 'your_database_name' with your actual database name
